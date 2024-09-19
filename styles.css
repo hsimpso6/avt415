@@ -43,7 +43,7 @@ li a {
 }
 
 li a:hover {
-    color: #8AB6D6; /* Light pastel blue on hover */
+    color: #8AB6D6;
 }
 
 /* Image styling */
@@ -53,19 +53,14 @@ img {
     width: 400px;
 }
 
-/* Additional spacing for sections */
+/* spacing for sections */
 section {
     margin-bottom: 40px;
 }
 /* container for images */
 .image-row {
     display: flex;
-    gap: 10px; /* Space between images */
-    justify-content: center; /* Center the images in the container */
+    gap: 10px; 
+    justify-content: center; 
 }
 
-/* styling for images inside the row */
-.image-row img {
-    width: 30%; /* Adjust the width of each image */
-    border-radius: 10px;
-}
