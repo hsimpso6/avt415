@@ -1,0 +1,56 @@
+/* Playfair Display font */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #FAF3E0; /* Pastel beige background */
+    color: #4A4A4A; /* Soft gray text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered container */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Headings */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #A77E58; /* Pastel brown for main heading */
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #7D9D9C; /* Soft pastel teal */
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: #5A6E7F; /* Pastel blue */
+    font-size: 1.2rem;
+}
+
+li a:hover {
+    color: #8AB6D6; /* Light pastel blue on hover */
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+/* Additional spacing for sections */
+section {
+    margin-bottom: 40px;
+}
