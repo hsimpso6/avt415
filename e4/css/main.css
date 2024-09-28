@@ -70,5 +70,59 @@ div {
   }
   p {
     color: #ffffff; /* White */
+   }
+}
+
+.cake-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cake {
+  width: 150px;
+  height: 200px;
+  background-color: #ffcc00; /* Cake color */
+  border-radius: 10px;
+  position: relative;
+}
+
+.layer {
+  height: 50px;
+  background-color: #ff6347; /* Layers color */
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.candle {
+  width: 10px;
+  height: 40px;
+  background-color: #ffffff; /* Candle color */
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+.flame {
+  width: 10px;
+  height: 20px;
+  background-color: #ff4500; /* Flame color */
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: flicker 1s infinite alternate;
+}
+
+@keyframes flicker {
+  0% {
+    transform: translateX(-50%) scaleY(1);
+  }
+  100% {
+    transform: translateX(-50%) scaleY(1.2);
   }
 }
