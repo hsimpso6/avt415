@@ -38,20 +38,18 @@ div {
   }
   .desktop-only {
     display: none;
+   }
+  }
+/* screen width less than or equal to 480px */
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: #00ff00; /* Electric green */
   }
 }
 
-/* @media only screen and (min-width: 768px) {
+/* screen width less than or equal to 320px */
+@media only screen and (max-width: 320px) {
   body {
-    background-color: pink;
+    background-color: #ff1493; /* Deep pink */
   }
-  p {
-    color: crimson;
-  }
-  .mobile-only {
-    display: block;
-  }
-  .desktop-only {
-    display: none;
-  }
-} */
+}
