@@ -43,7 +43,7 @@ div {
   }
 }
 
-/*768px or less */
+/*800px or less */
 @media only screen and (max-width: 768px) {
   body {
     background-color: #00ffff; /* Vibrant cyan */
@@ -52,11 +52,11 @@ div {
     color: #ff4500; /* Neon orange */
   }
   div {
-    margin-top: 45vh;
+    margin-top: 50vh;
   }
 }
 
-/*500px or less */
+/*600px or less */
 @media only screen and (max-width: 500px) {
   body {
     background-color: pink; /* Light pink */
