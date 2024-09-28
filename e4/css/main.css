@@ -22,7 +22,7 @@ div {
 .mobile-only {
   display: none;
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   body {
     background-color: #005e5e;
   }
