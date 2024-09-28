@@ -1,35 +1,57 @@
-/* Default background */
 body {
   background-color: #ff00ff; /* Vivid magenta */
   margin: 0;
   font-size: 64px;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue', sans-serif; /* Now using Bebas Neue */
+}
+p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #00ff00; /* Electric green */
+  font-weight: bold;
+  text-align: center;
+  line-height: .1em;
+}
+.bigger {
+  font-size: 2em;
+  padding-top: .2em;
+}
+div {
+  margin-top: 40vh;
+}
+.mobile-only {
+  display: none;
 }
 
-/* First breakpoint */
-@media only screen and (max-width: 1024px) {
-  body {
-    background-color: #ff4500; /* Neon orange */
-  }
-}
-
-/* Second breakpoint*/
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
   body {
     background-color: #00ffff; /* Vibrant cyan */
   }
-}
-
-/* Third breakpoint*/
-@media only screen and (max-width: 768px) {
-  body {
-    background-color: #00ff00; /* Electric green */
+  p {
+    color: #ff4500; /* Neon orange */
+  }
+  div {
+    margin-top: 45vh;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
   }
 }
 
-/* Fourth breakpoint*/
-@media only screen and (max-width: 480px) {
+/* @media only screen and (min-width: 768px) {
   body {
-    background-color: #ff1493; /* Deep pink */
+    background-color: pink;
   }
-}
+  p {
+    color: crimson;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+} */
