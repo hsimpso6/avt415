@@ -51,9 +51,6 @@ div {
   p {
     color: #ff4500; /* Neon orange */
   }
-  div {
-    margin-top: 50vh;
-  }
 }
 
 /*600px or less */
@@ -63,9 +60,6 @@ div {
   }
   p {
     color: crimson; /* Dark red */
-  }
-  div {
-    margin-top: 50vh; /* Adjusted margin for smaller screens */
   }
 }
 
