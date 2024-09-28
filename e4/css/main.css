@@ -73,3 +73,42 @@ div {
    }
 }
 
+.simple-cake {
+  width: 100px;
+  height: 150px;
+  background-color: #ffcc99; /* Cake color */
+  border-radius: 5px;
+  position: relative;
+  margin: 20px auto;
+}
+
+.cake-layer {
+  width: 100px;
+  height: 30px;
+  background-color: #ff6347; /* Layer color */
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.candle {
+  width: 10px;
+  height: 40px;
+  background-color: #ffffff; /* Candle color */
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+.flame {
+  width: 10px;
+  height: 20px;
+  background-color: #ff4500; /* Flame color */
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
