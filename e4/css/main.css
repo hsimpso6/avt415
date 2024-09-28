@@ -22,6 +22,20 @@ div {
 .mobile-only {
   display: none;
 }
+@media only screen and (min-width: 1000px) {
+  body {
+    background-color: #005e5e;
+  }
+  p {
+    color: #ffcc00;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+} 
 
 @media only screen and (max-width: 768px) {
   body {
@@ -40,8 +54,7 @@ div {
     display: none;
   }
 }
-
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
   body {
     background-color: pink;
   }
@@ -54,4 +67,4 @@ div {
   .desktop-only {
     display: none;
   }
-} */
+} 
