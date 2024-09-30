@@ -122,4 +122,31 @@ button a:hover {
   .large-text {
     font-size: 1.5rem;
   }
+/* Style for Dauphine's Revival link */
+.title-dauphine {
+    color: #2c3e50; /* Dark blue color */
+    font-weight: bold;
+    text-decoration: none; /* Remove underline from links */
+    font-family: 'Crimson Text', serif; /* Use the font from Google Fonts */
+}
+
+.title-dauphine:hover {
+    color: #e74c3c; /* Change color on hover */
+    text-decoration: underline; /* Underline when hovered */
+}
+
+/* Style for The Velvet Velvet */
+.title-velvet {
+    color: #8e44ad; /* Purple color */
+    font-style: italic;
+    font-family: 'Quicksand', sans-serif; /* Use the font from Google Fonts */
+}
+
+/* Style for Pines of Nowhere */
+.title-pine {
+    color: #27ae60; /* Green color */
+    font-weight: 700; /* Bold */
+    font-family: 'Crimson Text', serif; /* Same font as title-dauphine */
+    text-transform: uppercase; /* Make it all uppercase */
+  }
 }
